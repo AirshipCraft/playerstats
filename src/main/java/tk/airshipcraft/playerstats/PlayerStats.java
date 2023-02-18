@@ -1,4 +1,4 @@
-package tk.zune.playerstats;
+package tk.airshipcraft.playerstats;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
@@ -6,7 +6,6 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-import tk.airshipcraft.playerstats.PlayerManager;
 import tk.airshipcraft.playerstats.data.FlatFile;
 import tk.airshipcraft.playerstats.data.UserDatabase;
 
@@ -59,9 +58,9 @@ public final class PlayerStats extends JavaPlugin implements Listener {
      * Registers events
      */
     public void registerEvents() {
-        Bukkit.getPluginManager().registerEvents(new Playtime(), this);
+//        Bukkit.getPluginManager().registerEvents(new Playtime(), this);
         Bukkit.getPluginManager().registerEvents(new FlatFile(this), this);
-        Bukkit.getPluginManager().registerEvents(new ConnectionListener(this), this);
+//        Bukkit.getPluginManager().registerEvents(new ConnectionListener(this), this);
     }
 
     /**

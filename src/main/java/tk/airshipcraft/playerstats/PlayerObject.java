@@ -1,7 +1,5 @@
 package tk.airshipcraft.playerstats;
 
-import tk.zune.playerstats.PlayerStats;
-
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
