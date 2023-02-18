@@ -1,0 +1,7 @@
+name: Playerstats
+version: '${project.version}'
+main: tk.airshipcraft.playerstats.Playerstats
+api-version: 1.19
+authors: [ AirshipCraft, notzune, TechJunkyBenJr ]
+description: Plugin that handles database connection and saving player data
+website: https://www.airshipcraft.tk/home
